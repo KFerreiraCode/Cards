@@ -176,7 +176,36 @@ input {
     color: var(--current-color2);
 }
 
+.btn-heart{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: grey;
+}
 
+.btn-heart svg{
+    fill: currentColor;
+}
+
+.btn-heart:hover svg{
+    cursor: pointer;
+}
+
+.transparente-bg {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.card .socials .save-btn{
+    background-color: transparent;
+}
+
+
+:root {
+    --current-color1: #992d06;
+    --current-color2: #ECEAED;
+}
 
 #s1:checked~.cards #slide4,
 #s2:checked~.cards #slide5,
